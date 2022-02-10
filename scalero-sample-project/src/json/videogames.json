@@ -1,0 +1,82 @@
+[
+  {
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "description": "The Legend of Zelda: Breath of the Wild eschewed the semi-linear, borderline predictable path of the 3D Zelda games before it in favor of a bold, crazy new approach: let players do what they want, how they want, and in whatever order they decide. By marrying an open-ended approach to quest structure with the ability to freely explore a vast, beautiful, intriguing world with little specific regulation, the 3D Zelda game template was shattered about as fast as the average breakable weapon in Breath of the Wild. The result is a gorgeous, freeing open-world action/adventure experience that evokes the wonder and fear of exploring a bold new place with the empowering tangibility of becoming its hero.",
+    "year": "2017",
+    "likes": 0,
+    "dislikes": 0,
+    "reviews": [""]
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "description": "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall.",
+    "year": "2013",
+    "likes": 0,
+    "dislikes": 0,
+    "reviews": [""]
+  },
+  {
+    "name": "The Last of Us",
+    "description": "The Last of Us is a 2013 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment. Players control Joel, a smuggler tasked with escorting a teenage girl, Ellie, across a post-apocalyptic United States. The Last of Us is played from a third-person perspective.",
+    "year": "2013",
+    "likes": 0,
+    "dislikes": 0,
+    "reviews": [""]
+  },
+  {
+    "name": "Portal 2",
+    "description": "The single-player portion of Portal 2 introduces a cast of dynamic new characters, a host of fresh puzzle elements, and a much larger set of devious test chambers. Players will explore never-before-seen areas of the Aperture Science Labs and be reunited with GLaDOS, the occasionally murderous computer companion who guided them through the original game.",
+    "year": "2011",
+    "likes": 0,
+    "dislikes": 0,
+    "reviews": [""]
+  },
+  {
+    "name": "Half-Life 2",
+    "description": "Half-Life 2 is a first-person shooter game developed by Valve. It is the sequel to the 1998 game Half-Life, as well as the second game in the Half-Life series. Like its predecessor, the game combines shooting, puzzles and storytelling, and adds features such as vehicles and physics-based gameplay.",
+    "year": "2004",
+    "likes": 0,
+    "dislikes": 0,
+    "reviews": [""]
+  },
+  {
+    "name": "Minecraft",
+    "description": "Minecraft is a sandbox video game developed by the Swedish video game developer Mojang Studios. The game was created by Markus Notch Persson in the Java programming language.",
+    "year": "2011",
+    "likes": 0,
+    "dislikes": 0,
+    "reviews": [""]
+  },
+  {
+    "name": "NieR:Automata",
+    "description": "NieR: Automata tells the story of androids 2B, 9S and A2 and their battle to reclaim the machine-driven dystopia overrun by powerful machines. Humanity has been driven from the Earth by mechanical beings from another world. In a final effort to take back the planet, the human resistance sends a force of android soldiers to destroy the invaders. Now, a war between machines and androids rages on... A war that could soon unveil a long-forgotten truth of the world.",
+    "year": "2017",
+    "likes": 0,
+    "dislikes": 0,
+    "reviews": [""]
+  },
+  {
+    "name": "FINAL FANTASY XIV Online",
+    "description": "Take part in an epic and ever-changing FINAL FANTASY as you adventure and explore with friends from around the world. This product also includes the entitlements to play FINAL FANTASY® XIV: A Realm Reborn and the expansion pack FINAL FANTASY® XIV: HEAVENSWARD.",
+    "year": "2014",
+    "likes": 0,
+    "dislikes": 0,
+    "reviews": [""]
+  },
+  {
+    "name": "Lost Ark",
+    "description": "Embark on an odyssey for the Lost Ark in a vast, vibrant world: explore new lands, seek out lost treasures, and test yourself in thrilling action combat. Define your fighting style with your class and advanced class, and customize your skills, weapons, and gear to bring your might to bear as you fight against hordes of enemies, colossal bosses, and dark forces seeking the power of the Ark in this action-packed free-to-play RPG.",
+    "year": "2022",
+    "likes": 0,
+    "dislikes": 0,
+    "reviews": [""]
+  },
+  {
+    "name": "Monster Hunter: World",
+    "description": "Welcome to a new world! Take on the role of a hunter and slay ferocious monsters in a living, breathing ecosystem where you can use the landscape and its diverse inhabitants to get the upper hand. Hunt alone or in co-op with up to three other players, and use materials collected from fallen foes to craft new gear and take on even bigger, badder beasts!",
+    "year": "2018",
+    "likes": 0,
+    "dislikes": 0,
+    "reviews": [""]
+  }
+]
