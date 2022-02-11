@@ -11,6 +11,15 @@ import { LikeDislike } from "../Item_List/LikeDislike";
 
 // Slugify
 import { slugify } from "../../functions/slugify";
+import { ReviewCard } from "./ReviewCard";
+import {
+  CardWrapper,
+  FlexSpacedBetween,
+  ReviewCharacter_ButtonWrapper,
+  TextWrapper,
+} from "./UI/style";
+import { Button } from "../../UI/GlobalStyle.js";
+import { ReviewInput } from "./ReviewInput";
 
 // Function to filter correct videogame based of the slug and the array of videogames
 const filterVideogame = (videogames, slug) => {
@@ -32,14 +41,37 @@ export const ItemView = (props) => {
     })
   );
 
+  const [view, setView] = useState(true);
+
+  // Function to render dynamically the videogame's review
+  const review_items = videogame.reviews.map((review, index) => {
+    return <ReviewCard review={review} key={index} />;
+  });
+
   return (
     <div className="App">
       <h1>{videogame.name}</h1>
       <Divider />
-      <p>{videogame.description}</p>
-      <p>{index}</p>
+      <TextWrapper>
+        <p>{videogame.description}</p>
+      </TextWrapper>
       <Divider />
-      <LikeDislike videogame={videogame} index={index} updateLocalStorage={props.updateLocalStorage} />
+      <FlexSpacedBetween style={{ margin: "10px 10% 0px 10%" }}>
+        <Button onClick={() => setView(!view)}>Write your own...</Button>
+        <LikeDislike
+          videogame={videogame}
+          index={index}
+          updateLocalStorage={props.updateLocalStorage}
+        />
+      </FlexSpacedBetween>
+      {view ? null : (
+        <ReviewInput
+          updateLocalStorage={props.updateLocalStorage}
+          videogame={videogame}
+          setView={setView}
+        />
+      )}
+      <CardWrapper>{review_items}</CardWrapper>
     </div>
   );
 };

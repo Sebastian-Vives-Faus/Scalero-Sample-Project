@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 // External Functions
 import { slugify } from "../../../functions/slugify";
+import { TableContent, TableHeader, TableRow } from "./style";
 
 export const TableList = (props) => {
   // Sort videogames by popularity
@@ -16,7 +17,7 @@ export const TableList = (props) => {
   // Map the videogame list into table rows
   const videogame_table = props.videogames.map((videogame, index) => {
     return (
-      <tr key={index}>
+      <TableRow key={index}>
         <Link
           to={slugify(videogame.name)}
           key={videogame.name}
@@ -25,6 +26,7 @@ export const TableList = (props) => {
             index: index,
             updateLocalStorage: props.updateLocalStorage,
           }}
+          style={{textDecoration: 'none', color: 'white'}}
         >
           <td>{videogame.name}</td>
         </Link>
@@ -36,17 +38,19 @@ export const TableList = (props) => {
             updateLocalStorage={props.updateLocalStorage}
           />
         </td>
-      </tr>
+      </TableRow>
     );
   });
 
   return (
-    <table>
-      <tr>
-        <td>Name</td>
-        <td>Year</td>
-        <td>Likes/Dislikes</td>
-      </tr>
+    <table style={{borderCollapse: "collapse"}}>
+      <TableHeader>
+        <tr>
+          <td>Name</td>
+          <td>Year</td>
+          <td>Likes/Dislikes</td>
+        </tr>
+      </TableHeader>
       <tbody>{videogame_table}</tbody>
     </table>
   );

@@ -5,7 +5,7 @@
     "year": "2017",
     "likes": 0,
     "dislikes": 0,
-    "reviews": [""]
+    "reviews": ["Hola"]
   },
   {
     "name": "Grand Theft Auto V",
@@ -77,6 +77,12 @@
     "year": "2018",
     "likes": 0,
     "dislikes": 0,
-    "reviews": [""]
+    "reviews": [
+      "Better than Rise",
+      "The absolute best example of lets take a niche hardcore series and appeal to the westerns while keeping veteran fans and it worked.",
+      "Very Nice the monsters bullied me",
+      "The Best RPG of ALL TIME !!",
+      "theres a lot of funny dogs it's very good"
+    ]
   }
 ]

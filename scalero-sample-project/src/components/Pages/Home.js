@@ -1,11 +1,11 @@
 // GlobalStyles
-import { TitleWrapper, AppHeader, Divider, TitleSpan } from "../UI/GlobalStyle";
+import { TitleWrapper, AppHeader, Divider, TitleSpan } from "../../UI/GlobalStyle";
 
 // React Router
 import { Link } from "react-router-dom";
 
 // Components
-import { ItemList } from "./Item_List/ItemList";
+import { ItemList } from "../Item_List/ItemList";
 
 export const Home = (props) => {
   return (

@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Import the Videogames JSON
 import videogames from "./json/videogames.json";
-import { Home } from "./components/Home";
+import { Home } from "./components/Pages/Home";
 import { ItemView } from "./components/Detailed_View/ItemView";
 
 // Preload our "default-database" into LocalStorage

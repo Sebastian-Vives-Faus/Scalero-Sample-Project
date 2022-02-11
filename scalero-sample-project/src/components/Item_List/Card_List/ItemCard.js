@@ -16,10 +16,16 @@ export const ItemCard = (props) => {
           <Link
             to={slugify(props.videogame.name)}
             key={props.videogame.name}
+            style={{ textDecoration: "none", color: "white" }}
           >
             <p>{props.videogame.name}</p>
           </Link>
-          <p>Year</p>
+          <p>{props.videogame.year}</p>
+          <LikeDislike
+            videogame={props.videogame}
+            index={props.index}
+            updateLocalStorage={props.updateLocalStorage}
+          />
         </Card>
       </CardContainer>
     </div>
