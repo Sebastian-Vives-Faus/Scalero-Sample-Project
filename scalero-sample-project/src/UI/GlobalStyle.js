@@ -33,9 +33,8 @@ export const Button = styled.button`
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  opacity: 1;
   outline: 0 solid transparent;
-  padding: 8px 18px;
+  padding: 2px 10px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;

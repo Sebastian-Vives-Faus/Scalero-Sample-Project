@@ -21,11 +21,6 @@ export const TableList = (props) => {
         <Link
           to={slugify(videogame.name)}
           key={videogame.name}
-          state={{
-            videogame: videogame,
-            index: index,
-            updateLocalStorage: props.updateLocalStorage,
-          }}
           style={{textDecoration: 'none', color: 'white'}}
         >
           <td>{videogame.name}</td>

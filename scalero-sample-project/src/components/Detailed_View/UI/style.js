@@ -2,12 +2,14 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
   padding: 2px 16px;
-  margin: 0.5em 0 0.5em 0;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  
 `;
 
 export const CardWrapper = styled.div`
   display: flex;
   justify-content: center;
+  align-content: center;
   flex-wrap: wrap;
   list-style-type: none;
   margin: 0px 4% 0px 4%;
@@ -37,9 +39,11 @@ export const TextWrapper = styled.div`
 export const Card = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  background-image : linear-gradient(to bottom, 
-                    rgba(40, 44, 52, 0), 
-                    rgba(195, 149, 255, 0.8) 150%);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(40, 44, 52, 0),
+    rgba(195, 149, 255, 0.8) 150%
+  );
   width: 255px;
   border-radius: 5px;
   min-height: 105px;
@@ -54,9 +58,11 @@ export const Card = styled.div`
 
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    background-image : linear-gradient(to bottom, 
-                    rgba(40, 44, 52, 0), 
-                    rgba(188, 137, 255, 1) 150%);
+    background-image: linear-gradient(
+      to bottom,
+      rgba(40, 44, 52, 0),
+      rgba(188, 137, 255, 1) 150%
+    );
   }
 `;
 

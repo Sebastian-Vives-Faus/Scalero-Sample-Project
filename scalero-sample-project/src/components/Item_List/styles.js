@@ -84,6 +84,7 @@ export const LikeDislikeWrapper = styled.div`
   justify-content: space-evenly;
   flex-direction: row;
   min-width: 150px;
+  font-weight: 300;
 
   @media (max-width: 768px) {
     min-width: none;
