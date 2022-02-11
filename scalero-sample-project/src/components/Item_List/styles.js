@@ -36,6 +36,7 @@ export const Wrapper = styled.div`
 
 export const CardContainer = styled.div`
   padding: 2px 16px;
+  margin: 10px;
 `;
 
 export const CardListWrapper = styled.div`
@@ -47,10 +48,15 @@ export const CardListWrapper = styled.div`
 export const Card = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  background-color: #c395ff;
   width: 250px;
   border-radius: 5px;
   height: 105px;
+  border: solid 2px #c395ff;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(40, 44, 52, 0),
+    rgba(195, 149, 255, 0.8) 150%
+  );
 
   @media (max-width: 768px) {
     width: 370px;
@@ -58,7 +64,18 @@ export const Card = styled.div`
 
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    background-color: #b57ffb;
+    background-color: rgba(195, 149, 255, 0.6);
+  }
+`;
+
+export const CardTitle = styled.p`
+  margin: unset;
+  font-weight: 300;
+  font-size: 18px;
+
+  @media (max-width: 768px) {
+    font-weight: 500;
+    font-size: 20px;
   }
 `;
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { LikeDislike } from "../LikeDislike";
-import { CardContainer, Card } from "../styles";
+import { CardContainer, Card, CardTitle } from "../styles";
+import { Divider } from "../../../UI/GlobalStyle";
 
 // React Router
 import { Link } from "react-router-dom";
@@ -18,9 +19,9 @@ export const ItemCard = (props) => {
             key={props.videogame.name}
             style={{ textDecoration: "none", color: "white" }}
           >
-            <p>{props.videogame.name}</p>
+            <CardTitle>{props.videogame.name}</CardTitle>
           </Link>
-          <p>{props.videogame.year}</p>
+          <Divider/>
           <LikeDislike
             videogame={props.videogame}
             index={props.index}
