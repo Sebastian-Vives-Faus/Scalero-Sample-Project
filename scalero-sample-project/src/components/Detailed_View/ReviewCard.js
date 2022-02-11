@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardContainer, LiCard, ReviewParagraph } from "./UI/style";
+import { Card, CardContainer, ReviewParagraph } from "./UI/style";
 
 export const ReviewCard = (props) => {
   console.log(props);

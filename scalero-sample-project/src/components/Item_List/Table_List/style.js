@@ -5,12 +5,12 @@ export const TableHeader = styled.thead`
 `;
 
 export const TableRow = styled.tr`
-  border-bottom: solid 1px rgba(195, 149, 255,0.5);
+  border-bottom: solid 1px rgba(195, 149, 255, 0.5);
   text-decoration: none;
   font-weight: 100;
   transition: 0.4s;
 
-  &:hover{
+  &:hover {
     background-color: rgba(195, 149, 255, 0.6);
   }
 `;

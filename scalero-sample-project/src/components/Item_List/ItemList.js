@@ -22,14 +22,14 @@ export const ItemList = (props) => {
             setView(false);
           }}
         >
-          <BsListOl />
+          <BsListOl size={15} />
         </ToggleButton>
         <ToggleButton
           onClick={() => {
             setView(true);
           }}
         >
-          <BsGridFill />
+          <BsGridFill size={15} />
         </ToggleButton>
       </WrapperToggleButtons>
       {view ? (

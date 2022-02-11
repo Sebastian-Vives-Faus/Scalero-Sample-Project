@@ -4,9 +4,7 @@ import {
   FlexSpacedBetween,
   ReviewInputWrapper,
 } from "./UI/style";
-import {
-    Button
-} from "../../UI/GlobalStyle.js"
+import { Button } from "../../UI/GlobalStyle.js";
 
 import "./UI/review_input.css";
 
@@ -25,10 +23,10 @@ export const ReviewInput = (props) => {
     if (review.length < 10) {
       alert("Review must be longer than 10 characters.");
     } else {
-        props.videogame.reviews.push(review);
-        props.updateLocalStorage(props.videogame);
-        setReview("");
-        props.setView(true);
+      props.videogame.reviews.push(review);
+      props.updateLocalStorage(props.videogame);
+      setReview("");
+      props.setView(true);
     }
   };
 

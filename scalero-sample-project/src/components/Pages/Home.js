@@ -1,5 +1,10 @@
 // GlobalStyles
-import { TitleWrapper, AppHeader, Divider, TitleSpan } from "../../UI/GlobalStyle";
+import {
+  TitleWrapper,
+  AppHeader,
+  Divider,
+  TitleSpan,
+} from "../../UI/GlobalStyle";
 
 // React Router
 import { Link } from "react-router-dom";
@@ -22,7 +27,6 @@ export const Home = (props) => {
           videogames={props.videogames}
         />
       </AppHeader>
-      {/* <button onClick={() => {localStorage.setItem("videogames", '')}}>Reset</button> */}
     </div>
   );
 };

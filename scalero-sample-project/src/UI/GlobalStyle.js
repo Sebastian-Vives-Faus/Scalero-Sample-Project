@@ -21,14 +21,14 @@ export const Divider = styled.hr`
 `;
 
 export const TitleSpan = styled.span`
-    color: #c395ff;
+  color: #c395ff;
 `;
 
 export const Button = styled.button`
   background: rgba(195, 149, 255, 1);
   border-radius: 999px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
@@ -46,7 +46,7 @@ export const Button = styled.button`
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  &:hover{
+  &:hover {
     background: rgba(188, 137, 255, 1);
   }
 `;

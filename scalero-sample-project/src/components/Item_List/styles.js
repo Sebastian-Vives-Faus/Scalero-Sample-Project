@@ -48,9 +48,10 @@ export const CardListWrapper = styled.div`
 export const Card = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 250px;
+  width: 300px;
   border-radius: 5px;
   height: 105px;
+  padding: 0 5px 0 5px;
   border: solid 2px #c395ff;
   background-image: linear-gradient(
     to bottom,

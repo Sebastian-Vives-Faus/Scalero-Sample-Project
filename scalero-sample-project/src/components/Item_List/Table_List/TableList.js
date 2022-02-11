@@ -21,7 +21,7 @@ export const TableList = (props) => {
         <Link
           to={slugify(videogame.name)}
           key={videogame.name}
-          style={{textDecoration: 'none', color: 'white'}}
+          style={{ textDecoration: "none", color: "white" }}
         >
           <td>{videogame.name}</td>
         </Link>
@@ -38,7 +38,7 @@ export const TableList = (props) => {
   });
 
   return (
-    <table style={{borderCollapse: "collapse"}}>
+    <table style={{ borderCollapse: "collapse" }}>
       <TableHeader>
         <tr>
           <td>Name</td>
